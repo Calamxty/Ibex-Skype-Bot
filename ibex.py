@@ -4,20 +4,6 @@ Creator			: @Calamxty (Email/XMPP: iAmCalamity@riseup.net)
 Description		: Ibex Skype Bot was basically made out of boredom. A side-project I'd work on whenever I'd Skype with people.
 				: It's a pretty simple bot. Some of the stuff I did could've been done more efficiently, however, I don't care.
 				: I simply just added stuff whenever I'd come up with an idea of a function/feature. 
-						
-Important Notes	: I made this on my windows computer, but a few simple changes and I've had it run on Fedora 20 as well.
-				: I came across the issue of Microsoft disabling their chat API and changing the group chat to work differently,
-				: HOWEVER, I am able to use Skype 6.10.0.104 and get it to work. It doesn't work in group chats outright, though.
-				: It started off only working in private messages, until I decided to try to add a friend through private message, creating
-				: a group that way, and the bot managed to work! It's a bit of effort, but to me it was worth it in the long run.
-
-Dependencies	: 
-				: - Skype4Py
-				:	- https://pypi.python.org/pypi/Skype4Py/
-				: - BeautifulSoup 4.3.2
-				:	- https://pypi.python.org/pypi/beautifulsoup4/4.3.2
-				: - Skype that works with Skype4Py 
-				:	- http://lmgtfy.com/?q=Skype+6.10.0.104 (Can't give you DL, but can point in right direction)
 """
 import os,sys,time,Skype4Py,urllib2,config
 from bs4 import BeautifulSoup
@@ -130,6 +116,8 @@ def Ibex(Message, Status):
 				send('Please do not start the topic with \'!\'. Thank you.')
 			else:
 				send('/topic '+topic+' | Call Record: 125 Hours')
+				
+#Admin Commands
 	if Status == 'SENT' or inMSG(config.admin, sUsername):
 		if msg.lower() == '!lock topic':
 			send('/set options +TOPIC_AND_PIC_LOCKED_FOR_USERS')
