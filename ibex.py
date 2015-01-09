@@ -1,9 +1,9 @@
 """ 
-Creator			: @Calamxty (Email/XMPP: iAmCalamity@riseup.net)
+Creator		: @Calamxty (Email/XMPP: iAmCalamity@riseup.net)
 
-Description		: Ibex Skype Bot was basically made out of boredom. A side-project I'd work on whenever I'd Skype with people.
-				: It's a pretty simple bot. Some of the stuff I did could've been done more efficiently, however, I don't care.
-				: I simply just added stuff whenever I'd come up with an idea of a function/feature. 
+Description	: Ibex Skype Bot was basically made out of boredom. A side-project I'd work on whenever I'd Skype with people.
+			: It's a pretty simple bot. Some of the stuff I did could've been done more efficiently, however, I don't care.
+			: I simply just added stuff whenever I'd come up with an idea of a function/feature. 
 """
 import os,sys,time,Skype4Py,urllib2,config
 from bs4 import BeautifulSoup

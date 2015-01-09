@@ -1,2 +1,3 @@
 (*) Rules (*)
-No rules have been set yet.
+No rules have been set yet. 
+Do so by editing "rules.txt" in the "db" folder.

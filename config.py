@@ -8,11 +8,6 @@ timerGoal = '168' #By default the timer's goal is set to a week. (Ex: 0/168 HOUR
 
 weatherKey = '' #Get one from http://www.wunderground.com/ for weather API (XML)
 
-""" This stuff is for the Skype2IRC part I made for the bot. You don't need to use it, but in case you want to... """
-server 	= 'irc.freenode.net'
-port 	= 6667
-channel = '#IbexIRC'
-botname = 'IbexIRC'
 """ These you can edit, but would recommend to leave alone """
 
 blacklist = [] #You can add words you can black list. The users will be kicked if they used these words.
