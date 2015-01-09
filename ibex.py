@@ -67,7 +67,7 @@ def Ibex(Message, Status):
 				chatName = chat.Name
 			else:
 				chatName = chat.Topic
-			send(tag+'Current Call Timer: '+config.timer+'/'+config.timerGoal+' HOURS\nTopic: '+chatName+'\nCall Status: '+callStatus+'\nMessage Count: ' + str(len(chat.Messages))+'\nMember Count: '+str(len(chat.Members)) +'\nBot Account: '+config.botAccount)
+			send(tag+'Current Call Timer: '+config.timer+'/'+config.timerGoal+' HOURS\nTopic: '+chatName+'\nMessage Count: ' + str(len(chat.Messages))+'\nMember Count: '+str(len(chat.Members)) +'\nBot Account: '+config.botAccount)
 		if msg.lower().startswith('!timer '):
 			timer = msg.replace('!timer ','',1)
 			config.timer = timer
