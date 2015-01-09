@@ -2,12 +2,12 @@
 A Skype bot I used to work on. Recently got it to work again so figured I'd edit it a bit and upload it here
 
 ##Requirements:
-		: - Skype4Py
-		:	  - https://pypi.python.org/pypi/Skype4Py/
-		: - BeautifulSoup 4.3.2
-		:	  - https://pypi.python.org/pypi/beautifulsoup4/4.3.2
-		: - Skype that works with Skype4Py 
-		:	  - http://lmgtfy.com/?q=Skype+6.10.0.104 (Can't give you DL, but can point in right direction)
+	- Skype4Py
+		  - https://pypi.python.org/pypi/Skype4Py/
+	- BeautifulSoup 4.3.2
+		  - https://pypi.python.org/pypi/beautifulsoup4/4.3.2
+	- Skype that works with Skype4Py 
+		  - http://lmgtfy.com/?q=Skype+6.10.0.104 (Can't give you DL, but can point in right direction)
 
 ##Important Notes	: 
   I made this on my windows computer, but a few simple changes and I've had it run on Fedora 20 as well.
