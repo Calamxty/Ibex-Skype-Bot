@@ -1,0 +1,9 @@
+Welcome to Ibex Skype Bot created by Calamity.
+
+For a list of commands, type !commands 
+To view the rules, type !rules 
+To view chat information, type !info
+
+If you need help, contact me here: 
+Twitter: http://twitter.com/Calamxty
+XMPP/Email: iAmCalamity@riseup.net

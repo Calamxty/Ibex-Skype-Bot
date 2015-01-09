@@ -1,0 +1,22 @@
+(*) Commands (*)
+!ping - Ping the bot's connection
+!help - Loads help file for the bot 
+!rules - Shows the rules 
+!info - Shows chat/bot information
+!topic - Changes the conversation topic 
+!timer - Change call timer (Ex: !timer 2)
+!time - Show call timer 
+!ask - Ask a question (Ex: !ask Should I watch anime?)
+!isup - Check if a site is up, or if it's just you
+!ping [target] - Ping an IP address
+!tinyurl - Shorten a URL 
+!trace - Trace an IP Address
+!weather - Check weather by ZIP CODE
+!anime - Random Anime 
+!movie - Random Movie
+
+(*) Admin (*)
+!kick - Kick's a user
+!ban - Ban's a user 
+!nuke - Nukes chat
+!lock topic - Locks topic so it can only be changed with the bot
