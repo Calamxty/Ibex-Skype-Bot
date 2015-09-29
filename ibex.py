@@ -1,5 +1,5 @@
 """ 
-Creator		: @Calamxty (Email/XMPP: iAmCalamity@riseup.net)
+Creator		: @Calamxty (Email/XMPP: raided@riseup.net)
 
 Description	: Ibex Skype Bot was basically made out of boredom. A side-project I'd work on whenever I'd Skype with people.
 			: It's a pretty simple bot. Some of the stuff I did could've been done more efficiently, however, I don't care.
