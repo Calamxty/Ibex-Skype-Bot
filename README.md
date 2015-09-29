@@ -6,7 +6,7 @@ A Skype bot I used to work on. Recently got it to work again so figured I'd edit
 	  - https://pypi.python.org/pypi/Skype4Py/
 - BeautifulSoup 4.3.2
 	  - https://pypi.python.org/pypi/beautifulsoup4/4.3.2
-- Skype that works with Skype4Py 
+- Skype that works with Skype4Py (If on Windows)
 	  - http://lmgtfy.com/?q=Skype+6.10.0.104 (Can't give you DL, but can point in right direction)
 
 ##Important Notes	: 
